@@ -1,0 +1,109 @@
+Approach to work
+1 we can use command to see the logs 
+2 analyse some of them 
+3 Understanding the things
+4 Look for specific things
+5 Notice identifying and applying
+6 if some code is required
+7 search for it
+8 Store it
+
+Step 1
+we can use the command log show
+
+step 2
+we can simply use the command log show --last 
+to enter the data in one file log show --last 1m > file.txt  
+
+file size 4.1 mb 
+ls -lh file.txt
+attempt 1 1minute 4.1 Mb 
+
+step 3
+wc -l file name tells 
+total lines in files.txt is 20686
+head command tells you 
+head file.txt
+head -n for specific lines in code
+Timestamp- gives the time in which process is happening                     
+Thread -is the process going on
+Type- is the process a system type internel or is from user 
+Activity- if there is any impact of the process on the system 
+Which field answers “what time did this happen”? - timestamp 
+Which field answers “which program did this”? - PID
+
+
+
+
+Step 4
+grep command to find a line with particular word
+grep "word" file.txt
+
+What you searched for Roughly how wake sleep error
+much came back.                   many few many 
+What you found                    running shut down with errors 
+Now let’s get an actual number instead of a guess. What command counts the matching lines instead
+of printing all of them?
+
+grep "sleep" file.txt | wc -l  
+
+Step 5
+
+
+user name 5 times 
+machine name 0 times
+
+
+Step 6 
+I am choosing PID as it identifies the process which frequently occured in logs 
+my command  python3 summary.py file.txt
+First three lines of output, exactly as they came out:
+Total lines: 20686
+Top 5:
+0x0 16649
+
+Yes
+You just typed python3. Where does that program actually live?
+Guess first: i think it is located somehere.
+What command tells you? -- which
+Actual answer: --- /usr/bin/python3
+echo $path
+I was partly right as i thought it was somewhere but not the path
+
+
+Step 7
+Break 1
+Traceback (most recent call last):
+it is telling that file does not exist 
+
+Break 2
+chmod 000 file.txt 
+Traceback (most recent call last):
+it cannot read because all permessions are removed
+chmod 644 file.txt   
+
+break 3
+I removed the colon (:) at the end of the `with open(filename) as f:` line
+Traceback (most recent call last):
+python expected colin (:) but it was missing 
+break 3 as it identifies the syntax errors 
+
+Step 8
+mkdir -p log-project
+cp summary.py log-project
+cd log-project
+git init
+git status
+git add summary.py
+git commit -m "Add log summary script"
+git log --oneline
+bda20c0 (HEAD -> main) Add log summary script
+bda20c0
+script only 
+because log may contain private information that should ot be shared
+private repository 
+to reduce the risk of exploring the sensitive information 
+respository URL https://github.com/gorish-24/12a--ecture-solutions-
+Yes
+My program counts system log entries and displays the five most frequent values in a selected column.
+

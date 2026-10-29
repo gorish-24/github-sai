@@ -1,0 +1,142 @@
+# GORISH
+### Curious by Nature. Building by Design.
+
+Hey, I'm Gorish — a first-year B.Tech student at Rishihood University exploring the world of Artificial Intelligence, software development, and problem-solving.
+
+I'm passionate about understanding how technology works, developing strong technical skills, and eventually building meaningful AI-driven products. I'm at the beginning of my journey, learning, experimenting, and turning concepts into practical projects.
+
+**Explore My Work** | **Get in Touch**
+
+---
+
+## ABOUT ME
+
+### Early in the Journey. Intentional About the Destination.
+
+I'm a first-year B.Tech student at Rishihood University with a growing interest in technology, programming, mathematics, and innovation.
+
+Currently, I'm strengthening my programming fundamentals, learning how computers work, practising Python, and becoming comfortable with developer tools such as Git, GitHub, and the command line.
+
+Beyond academics, I'm interested in Artificial Intelligence, quantitative research, competitive problem-solving, and hackathons. I enjoy questioning how things work and finding better ways to approach problems.
+
+My long-term goal is to become a capable engineer and entrepreneur who combines technical knowledge with creative thinking to build products that solve real-world problems.
+
+I believe meaningful progress comes from curiosity, consistent practice, and the willingness to learn from mistakes.
+
+---
+
+## SKILLS & TOOLKIT
+
+### Programming
+- Python fundamentals
+- Conditional statements and loops
+- Number-based programming problems
+- Logical thinking and problem-solving
+
+### Developer Tools
+- Git and version control
+- GitHub and repository management
+- Command-line operations
+- Basic file and process management
+
+### Areas of Interest
+- Artificial Intelligence and Machine Learning
+- Algorithms and computational thinking
+- Mathematics and quantitative research
+- Software development
+- Entrepreneurship and product building
+
+*I'm continuously developing these skills through coursework, practice, and hands-on experimentation.*
+
+---
+
+## PROJECTS
+
+### 01. Log File Explorer
+**Python · Command Line · System Logs**
+
+A learning project focused on collecting system logs and analysing recurring process identifiers using Python. It explores file handling, command-line workflows, and basic data summarisation.
+
+**Status:** Learning Project
+
+### 02. Git & GitHub Practice
+**Git · GitHub · Version Control**
+
+Hands-on practice with repositories, commits, remote connections, and publishing code. This work is helping me understand how developers organise, track, and share their projects.
+
+**Status:** Ongoing Learning
+
+### 03. Future AI Project
+**Artificial Intelligence · Problem-Solving · Prototyping**
+
+I'm exploring ideas for a future AI project that addresses a practical problem. My aim is to start with a clearly defined need, develop a simple prototype, and improve it through experimentation.
+
+**Status:** Planned
+
+*Project descriptions and links will be updated as I complete and publish more work.*
+
+---
+
+## CURRENTLY LEARNING
+
+### Building Strong Foundations
+
+I'm focusing on the fundamentals that will support my future technical work:
+
+- Improving Python logic, accuracy, and problem-solving speed.
+- Understanding computer systems, operating systems, and command-line tools.
+- Practising Git and GitHub workflows.
+- Strengthening mathematical reasoning and algorithmic thinking.
+- Exploring the foundations of AI and machine learning.
+
+My approach is simple: understand the concept, practise it, test my understanding, and apply it to something practical.
+
+---
+
+## MY APPROACH
+
+### Understand First
+I want to understand the reasoning behind a solution, not simply memorise the answer.
+
+### Build to Learn
+I believe practical experimentation is essential for turning theoretical knowledge into real skills.
+
+### Improve Consistently
+I treat mistakes as opportunities to identify gaps, refine my approach, and become a better problem-solver.
+
+### Stay Curious
+Technology keeps evolving, and I want to remain open to new ideas, tools, and ways of thinking.
+
+---
+
+## THE LONG-TERM VISION
+
+### Make Things That Matter.
+
+My long-term ambition is to become an engineer who combines technical depth, creative thinking, and an understanding of real-world problems.
+
+I'm particularly interested in the potential of Artificial Intelligence to create useful products, improve existing systems, and open new possibilities.
+
+I know that reaching this goal requires years of learning, experimentation, and execution. For now, I'm focused on building strong fundamentals, developing practical skills, and taking the next step forward.
+
+**The ambition is long-term. The work starts now.**
+
+---
+
+## LET'S CONNECT
+
+I'm always interested in connecting with people who enjoy technology, learning, problem-solving, and building new ideas.
+
+Whether it's discussing AI, collaborating on a project, or exchanging ideas, I'd be glad to connect.
+
+**Email:** Add your email address
+
+**GitHub:** Add your GitHub profile URL
+
+**LinkedIn:** Add your LinkedIn profile URL
+
+---
+
+*Built with curiosity. Updated with progress.*
+
+© 2026 Gorish
