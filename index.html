@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gorish - Aspiring Technologist | AI & Software Development. First-year B.Tech student at Rishihood University." />
+  <meta name="author" content="Gorish" />
+  <meta property="og:title" content="Gorish | Aspiring Technologist & Developer" />
+  <meta property="og:description" content="Portfolio of Gorish — First-year B.Tech student exploring AI, software development, and systems." />
+  <meta property="og:type" content="website" />
+  <title>Gorish | Aspiring Technologist & Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366f1'/><text x='50%' y='58%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='56' font-weight='800' fill='white'>G</text></svg>" />
+</head>
+<body>
+
+  <!-- Background Ambient Glow -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Gorish Home">
+        <span class="logo-box">G</span>
+        <span class="logo-text">Gorish<span class="accent-dot">.</span></span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#learning" class="nav-link">Learning</a></li>
+          <li><a href="#vision" class="nav-link">Vision</a></li>
+          <li><a href="#contact" class="nav-link nav-link-cta">Let's Connect</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-indicator"></span>
+            <span>First-Year B.Tech @ Rishihood University</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Gorish</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Aspiring Technologist <span class="sep">|</span> AI &amp; Software Development
+          </p>
+
+          <blockquote class="hero-tagline">
+            "Curious by Nature. Building by Design."
+          </blockquote>
+
+          <p class="hero-description">
+            I'm a first-year student exploring the world of Artificial Intelligence, software development, and systems problem-solving. I'm building strong technical foundations today to create technology that makes a meaningful real-world impact tomorrow.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore My Work</span>
+              <svg class="btn-icon" viewBox="0 0 20 20" fill="currentColor" width="18" height="18">
+                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+            </a>
+          </div>
+
+          <div class="quick-links">
+            <span class="quick-label">Connect:</span>
+            <!-- GitHub Link -->
+            <a href="https://github.com/gorish-24" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="GitHub Profile">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+              </svg>
+              <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="LinkedIn Profile">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Interactive Terminal Card -->
+        <div class="hero-terminal">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <div class="terminal-title">gorish@engineer:~</div>
+          </div>
+          <div class="terminal-body">
+            <div class="code-line"><span class="code-comment"># Developer Profile</span></div>
+            <div class="code-line"><span class="code-keyword">class</span> <span class="code-class">StudentEngineer</span>:</div>
+            <div class="code-line indent-1"><span class="code-keyword">def</span> <span class="code-func">__init__</span>(self):</div>
+            <div class="code-line indent-2">self.name = <span class="code-string">"Gorish"</span></div>
+            <div class="code-line indent-2">self.role = <span class="code-string">"Aspiring AI Technologist"</span></div>
+            <div class="code-line indent-2">self.education = <span class="code-string">"B.Tech (1st Year)"</span></div>
+            <div class="code-line indent-2">self.campus = <span class="code-string">"Rishihood University"</span></div>
+            <div class="code-line indent-2">self.mindset = [<span class="code-string">"Curiosity"</span>, <span class="code-string">"Discipline"</span>, <span class="code-string">"Execution"</span>]</div>
+            <div class="code-line indent-1"><span class="code-keyword">def</span> <span class="code-func">current_mission</span>(self):</div>
+            <div class="code-line indent-2"><span class="code-keyword">return</span> <span class="code-string">"Building strong fundamentals today to create meaningful tech tomorrow."</span></div>
+            <div class="code-line">&nbsp;</div>
+            <div class="code-line terminal-prompt-line">
+              <span class="prompt-arrow">❯</span>
+              <span class="prompt-cmd">python -m gorish.status</span>
+            </div>
+            <div class="terminal-output">
+              <span class="output-check">✓</span> System operational. Constantly learning &amp; coding.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        
+        <div class="section-badge">ABOUT ME</div>
+        <h2 class="section-title">Early in the Journey. <br/><span class="highlight">Intentional About the Destination.</span></h2>
+
+        <div class="about-grid">
+          <div class="about-narrative">
+            <p>
+              I'm a first-year <strong>B.Tech student at Rishihood University</strong> with a deep-rooted curiosity for technology, programming, mathematics, and product innovation.
+            </p>
+            <p>
+              Right now, I'm actively strengthening my programming fundamentals, learning how computer systems function beneath the surface, practicing Python, and becoming proficient with developer workflows including <strong>Git, GitHub, and command-line environments</strong>.
+            </p>
+            <p>
+              Beyond the classroom, I am deeply intrigued by <strong>Artificial Intelligence, quantitative research, competitive problem-solving</strong>, and collaborative hackathons. I enjoy questioning why things work the way they do and finding simpler, more robust approaches to complex challenges.
+            </p>
+            <p>
+              I believe meaningful progress comes from curiosity, consistent daily practice, and the willingness to analyze mistakes until concepts are fully mastered.
+            </p>
+          </div>
+
+          <div class="about-cards-column">
+            <div class="info-card">
+              <div class="card-icon-box">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="card-info">
+                <h4>Academics &amp; Campus</h4>
+                <p>First-year B.Tech undergraduate at Rishihood University, building computational and analytical rigor.</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-icon-box">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                  <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                </svg>
+              </div>
+              <div class="card-info">
+                <h4>First-Principles Thinking</h4>
+                <p>Committed to understanding the underlying logic rather than merely memorizing syntax or algorithms.</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-icon-box">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <div class="card-info">
+                <h4>Long-Term Ambition</h4>
+                <p>Combining technical mastery with entrepreneurial execution to build impactful software and AI solutions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS & TOOLKIT SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        
+        <div class="section-badge">SKILLS &amp; TOOLKIT</div>
+        <h2 class="section-title">Technical Foundations &amp; Interests</h2>
+        <p class="section-subtitle">
+          Skills I'm actively practicing and strengthening through coursework, personal labs, and experiments.
+        </p>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1: Programming -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon code-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Programming</h3>
+                <span class="skill-cat-sub">Core logic &amp; syntax</span>
+              </div>
+            </div>
+
+            <ul class="skill-list">
+              <li>
+                <span class="skill-bullet"></span>
+                <strong>Python Fundamentals:</strong> Data structures, functions, modular code
+              </li>
+              <li>
+                <span class="skill-bullet"></span>
+                <strong>Control Flow:</strong> Conditional logic, nested loops, branching
+              </li>
+              <li>
+                <span class="skill-bullet"></span>
+                <strong>Number-Based Problem Solving:</strong> Arithmetic patterns, prime logic, modular math
+              </li>
+              <li>
+                <span class="skill-bullet"></span>
+                <strong>Algorithmic Thinking:</strong> Breaking large problems into clean, testable sub-steps
+              </li>
+            </ul>
+
+            <div class="skill-tags">
+              <span class="tag">Python 3</span>
+              <span class="tag">Data Structures</span>
+              <span class="tag">Problem Solving</span>
+              <span class="tag">File Handling</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Developer Tools -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon tools-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Developer Tools</h3>
+                <span class="skill-cat-sub">Environment &amp; workflows</span>
+              </div>
+            </div>
+
+            <ul class="skill-list">
+              <li>
+                <span class="skill-bullet"></span>
+                <strong>Git &amp; Version Control:</strong> Commits, staging, branching, merge conflict basics
+              </li>
+              <li>
+                <span class="skill-bullet"></span>
+                <strong>GitHub:</strong> Repositories, remote sync, open-source workflow
+              </li>
+              <li>
+                <span class="skill-bullet"></span>
+                <strong>Command Line / Terminal:</strong> Navigation, process management, shell scripts
+              </li>
+              <li>
+                <span class="skill-bullet"></span>
+                <strong>System Utilities:</strong> Inspecting files, piping, log observation
+              </li>
+            </ul>
+
+            <div class="skill-tags">
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">Terminal (CLI)</span>
+              <span class="tag">Unix / Bash</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Areas of Interest -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="cat-icon ai-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2a4 4 0 0 1 4 4v2a4 4 0 0 1-8 0V6a4 4 0 0 1 4-4z"></path>
+                  <path d="M16 14v1a4 4 0 0 1-8 0v-1"></path>
+                  <path d="M12 19v3"></path>
+                  <path d="M8 22h8"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-cat-title">Areas of Interest</h3>
+                <span class="skill-cat-sub">Long-term research &amp; exploration</span>
+              </div>
+            </div>
+
+            <ul class="skill-list">
+              <li>
+                <span class="skill-bullet"></span>
+                <strong>Artificial Intelligence:</strong> Machine learning fundamentals, neural approaches
+              </li>
+              <li>
+                <span class="skill-bullet"></span>
+                <strong>Mathematics &amp; Modeling:</strong> Linear algebra, probability, quantitative reasoning
+              </li>
+              <li>
+                <span class="skill-bullet"></span>
+                <strong>Quantitative Research:</strong> Statistical data analysis, computational modeling
+              </li>
+              <li>
+                <span class="skill-bullet"></span>
+                <strong>Tech Entrepreneurship:</strong> Building scalable, useful products that solve real needs
+              </li>
+            </ul>
+
+            <div class="skill-tags">
+              <span class="tag">Artificial Intelligence</span>
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Quantitative Research</span>
+              <span class="tag">Product Building</span>
+            </div>
+          </div>
+
+        </div>
+
+        <p class="skills-footer-note">
+          <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+          </svg>
+          <em>I am continuously refining these skills through coursework, weekly programming practice, and hands-on experimentation.</em>
+        </p>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        
+        <div class="section-badge">PROJECTS</div>
+        <h2 class="section-title">Practical Work &amp; Prototypes</h2>
+        <p class="section-subtitle">
+          Projects and labs where I apply concepts, test assumptions, and learn by building.
+        </p>
+
+        <div class="projects-grid">
+          
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-num">01</span>
+              <span class="project-badge status-learning">Learning Project</span>
+            </div>
+
+            <h3 class="project-title">Log File Explorer</h3>
+            <p class="project-tech-stack">Python · Command Line · System Logs</p>
+
+            <p class="project-desc">
+              A learning project focused on collecting system logs and analyzing recurring process identifiers using Python. Explores file I/O handling, command-line workflows, regex patterns, and basic data summarization.
+            </p>
+
+            <div class="project-highlights">
+              <div class="highlight-item">
+                <span class="highlight-check">✓</span>
+                <span>Automated parsing of unstructured log text files</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-check">✓</span>
+                <span>Summarises frequency of recurring process IDs</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-check">✓</span>
+                <span>Demonstrates terminal navigation &amp; scripting basics</span>
+              </div>
+            </div>
+
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">File I/O</span>
+              <span class="tag">CLI</span>
+              <span class="tag">Log Analysis</span>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/gorish-24" target="_blank" rel="noopener noreferrer" class="project-link">
+                <span>View on GitHub</span>
+                <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-header">
+              <span class="project-num">02</span>
+              <span class="project-badge status-ongoing">Ongoing Practice</span>
+            </div>
+
+            <h3 class="project-title">Git &amp; GitHub Practice</h3>
+            <p class="project-tech-stack">Git · GitHub · Version Control · Collaboration</p>
+
+            <p class="project-desc">
+              Hands-on practical experience with repositories, atomic commits, remote connections, branching, and publishing code. Understanding how professional software teams organize, track, and ship software.
+            </p>
+
+            <div class="project-highlights">
+              <div class="highlight-item">
+                <span class="highlight-check">✓</span>
+                <span>Repository initialization, staging &amp; commit hygiene</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-check">✓</span>
+                <span>Remote origin management with GitHub authentication</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-check">✓</span>
+                <span>Branch creation, merging, and resolving basic conflicts</span>
+              </div>
+            </div>
+
+            <div class="project-tags">
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">Dev Workflow</span>
+              <span class="tag">VCS</span>
+            </div>
+
+            <div class="project-footer">
+              <a href="https://github.com/gorish-24" target="_blank" rel="noopener noreferrer" class="project-link">
+                <span>View Repositories</span>
+                <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card project-card-planned">
+            <div class="project-header">
+              <span class="project-num">03</span>
+              <span class="project-badge status-planned">Planned / In Ideation</span>
+            </div>
+
+            <h3 class="project-title">Future AI Solution</h3>
+            <p class="project-tech-stack">Artificial Intelligence · Prototyping · Problem-Solving</p>
+
+            <p class="project-desc">
+              Exploring ideas for an applied AI solution addressing a practical, everyday problem. Focused on finding a clearly defined user pain point, prototyping a lightweight model/agent, and iterating through feedback.
+            </p>
+
+            <div class="project-highlights">
+              <div class="highlight-item">
+                <span class="highlight-check">✓</span>
+                <span>User problem definition &amp; scope boundary mapping</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-check">✓</span>
+                <span>Exploration of lightweight ML models and agent workflows</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-check">✓</span>
+                <span>Rapid iterative prototyping and testing</span>
+              </div>
+            </div>
+
+            <div class="project-tags">
+              <span class="tag">AI / ML</span>
+              <span class="tag">Applied AI</span>
+              <span class="tag">Prototyping</span>
+              <span class="tag">Innovation</span>
+            </div>
+
+            <div class="project-footer">
+              <span class="planned-note">In active research &amp; design</span>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="projects-note">
+          <p><em>* Project descriptions, live demos, and repository links are updated as code is committed and pushed.</em></p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CURRENTLY LEARNING SECTION -->
+    <section class="section learning-section" id="learning">
+      <div class="container">
+        
+        <div class="section-badge">CURRENTLY LEARNING</div>
+        <h2 class="section-title">Building Strong Foundations</h2>
+        <p class="section-subtitle">
+          "Understand the concept. Practice deliberately. Test understanding. Apply to practical builds."
+        </p>
+
+        <div class="learning-grid">
+          
+          <div class="learning-card">
+            <div class="learning-number">01</div>
+            <div class="learning-content">
+              <h4>Python Logic &amp; Problem Solving</h4>
+              <p>Strengthening speed, accuracy, data structures, and edge-case handling through consistent algorithm practice.</p>
+            </div>
+          </div>
+
+          <div class="learning-card">
+            <div class="learning-number">02</div>
+            <div class="learning-content">
+              <h4>Computer Systems &amp; Operating Systems</h4>
+              <p>Understanding processes, memory models, hardware abstractions, file systems, and command-line automation.</p>
+            </div>
+          </div>
+
+          <div class="learning-card">
+            <div class="learning-number">03</div>
+            <div class="learning-content">
+              <h4>Git &amp; Collaborative Workflows</h4>
+              <p>Mastering branching strategies, git rebasing, commit discipline, and open-source contribution patterns.</p>
+            </div>
+          </div>
+
+          <div class="learning-card">
+            <div class="learning-number">04</div>
+            <div class="learning-content">
+              <h4>Mathematics for Machine Learning</h4>
+              <p>Developing deep intuition in linear algebra, calculus, discrete mathematics, and quantitative statistical reasoning.</p>
+            </div>
+          </div>
+
+          <div class="learning-card">
+            <div class="learning-number">05</div>
+            <div class="learning-content">
+              <h4>AI &amp; Machine Learning Foundations</h4>
+              <p>Exploring core learning algorithms, dataset curation, loss functions, optimization, and generative AI paradigms.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MY APPROACH & VISION SECTION -->
+    <section class="section vision-section" id="vision">
+      <div class="container">
+        
+        <div class="section-badge">PHILOSOPHY &amp; VISION</div>
+        <h2 class="section-title">Learn. Build. Improve.</h2>
+        <p class="section-subtitle">
+          The guiding principles behind how I learn, write code, and approach new challenges.
+        </p>
+
+        <div class="approach-grid">
+          
+          <div class="approach-card">
+            <div class="approach-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 16v-4"></path>
+                <path d="M12 8h.01"></path>
+              </svg>
+            </div>
+            <h3>Understand First</h3>
+            <p>I focus on understanding the core reasoning behind a solution rather than merely memorizing syntax or quick fixes.</p>
+          </div>
+
+          <div class="approach-card">
+            <div class="approach-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3>Build to Learn</h3>
+            <p>Practical experimentation and personal projects are essential for converting abstract theory into functional engineering skills.</p>
+          </div>
+
+          <div class="approach-card">
+            <div class="approach-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 6l-9.5 9.5-5-5L1 18"></path>
+                <path d="M17 6h6v6"></path>
+              </svg>
+            </div>
+            <h3>Improve Consistently</h3>
+            <p>I treat bugs and setbacks as diagnostic feedback loops to identify gaps, refine methods, and become a sharper engineer.</p>
+          </div>
+
+          <div class="approach-card">
+            <div class="approach-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="2"></circle>
+                <path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49m11.31-2.82a10 10 0 0 1 0 14.14m-14.14 0a10 10 0 0 1 0-14.14"></path>
+              </svg>
+            </div>
+            <h3>Stay Curious</h3>
+            <p>Technology moves at a blistering pace. I strive to stay open-minded, eager to explore new tools, paradigms, and perspectives.</p>
+          </div>
+
+        </div>
+
+        <!-- Vision Manifesto Banner -->
+        <div class="vision-banner">
+          <div class="vision-banner-content">
+            <span class="vision-caption">THE LONG-TERM VISION</span>
+            <h3 class="vision-heading">Make Things That Matter.</h3>
+            <p class="vision-text">
+              My goal is to evolve into a capable engineer and entrepreneur who pairs technical depth with creative problem-solving to build products that solve real-world problems.
+            </p>
+            <p class="vision-text">
+              I know that reaching this goal requires years of patient learning, deliberate practice, and persistent execution. I am focused on building strong foundations today to create better possibilities tomorrow.
+            </p>
+            <div class="vision-punchline">
+              <span>"The ambition is long-term. The work starts now."</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT / LET'S CONNECT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        
+        <div class="section-badge">LET'S CONNECT</div>
+        <h2 class="section-title">Interested in Exchanging Ideas or Collaborating?</h2>
+        <p class="section-subtitle">
+          Whether it's discussing AI, exploring a project, or talking about technology — my inbox is always open.
+        </p>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Channels Card -->
+          <div class="contact-channels-card">
+            <h3>Get in Touch Directly</h3>
+            <p>Feel free to reach out via email or connect with me on professional platforms:</p>
+
+            <div class="contact-items-list">
+              
+              <!-- Email Item with Copy Button -->
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-item-info">
+                  <span class="contact-item-label">Email</span>
+                  <!-- Replace 'your.email@example.com' with your actual email -->
+                  <a href="mailto:your.email@example.com" class="contact-item-value" id="email-address">gorish@example.com</a>
+                </div>
+                <button class="btn-copy" id="copy-email-btn" title="Copy email address" aria-label="Copy email address">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                  <span class="copy-tooltip" id="copy-tooltip">Copied!</span>
+                </button>
+              </div>
+
+              <!-- GitHub Item -->
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                  </svg>
+                </div>
+                <div class="contact-item-info">
+                  <span class="contact-item-label">GitHub</span>
+                  <a href="https://github.com/gorish-24" target="_blank" rel="noopener noreferrer" class="contact-item-value">github.com/gorish-24</a>
+                </div>
+                <a href="https://github.com/gorish-24" target="_blank" rel="noopener noreferrer" class="contact-item-action" aria-label="Visit GitHub Profile">
+                  <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+                    <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
+                    <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/>
+                  </svg>
+                </a>
+              </div>
+
+              <!-- LinkedIn Item -->
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                    <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                  </svg>
+                </div>
+                <div class="contact-item-info">
+                  <span class="contact-item-label">LinkedIn</span>
+                  <!-- Replace with your LinkedIn profile link -->
+                  <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="contact-item-value">linkedin.com/in/gorish</a>
+                </div>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="contact-item-action" aria-label="Visit LinkedIn Profile">
+                  <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+                    <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"/>
+                    <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"/>
+                  </svg>
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Quick Message Form -->
+          <div class="contact-form-card">
+            <h3>Send a Message</h3>
+            <p>You can drop me a quick note directly below:</p>
+            
+            <form id="contact-form" class="contact-form" onsubmit="handleFormSubmit(event)">
+              <div class="form-group">
+                <label for="form-name">Your Name</label>
+                <input type="text" id="form-name" name="name" required placeholder="Alex Mercer" />
+              </div>
+
+              <div class="form-group">
+                <label for="form-email">Your Email</label>
+                <input type="email" id="form-email" name="email" required placeholder="alex@example.com" />
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">Message</label>
+                <textarea id="form-message" name="message" rows="4" required placeholder="Hi Gorish, let's talk about AI, projects, or collaboration..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">
+                <span>Send via Email Client</span>
+                <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16">
+                  <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"/>
+                </svg>
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="brand-logo footer-logo">
+          <span class="logo-box">G</span>
+          <span class="logo-text">Gorish<span class="accent-dot">.</span></span>
+        </a>
+        <p class="footer-tagline">Built with curiosity. Updated with progress.</p>
+      </div>
+
+      <div class="footer-center">
+        <p class="copyright">&copy; 2026 Gorish. All rights reserved.</p>
+        <p class="footer-subtext">First-Year B.Tech · Rishihood University</p>
+      </div>
+
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top" aria-label="Back to top of page">
+          <svg viewBox="0 0 20 20" fill="currentColor" width="20" height="20">
+            <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" />
+          </svg>
+          <span>Top</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
